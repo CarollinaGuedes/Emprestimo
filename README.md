@@ -255,18 +255,16 @@ Permite registrar pagamentos de parcelas, calculando multas e juros de mora quan
 ### 6.1. Cálculo da Capacidade de Pagamento
 
 * **Fórmula:**
- Capacidade de Pagamento = Renda Líquida \* Percentual Máximo de Comprometimento da Renda
+    Capacidade de Pagamento = Renda Líquida \* Percentual Máximo de Comprometimento da Renda
 * **Detalhes:**
     * O percentual máximo de comprometimento varia de acordo com o score de crédito do cliente.
     * Outras dívidas e compromissos financeiros são considerados no cálculo.
-   * **Exemplo:**
+* **Exemplo:**
     * Renda líquida mensal: R$ 3.000,00
     * Percentual máximo de comprometimento (score médio): 30%
-    * Outras dívidas mensais: R$ 500,00
     * Cálculo:
-        * Capacidade de pagamento bruta: R$ 3.000,00 \* 0.30 = R$ 900,00
-        * Capacidade de pagamento líquida: R$ 900,00 - R$ 500,00 = R$ 400,00
-    * Resultado: A capacidade de pagamento do cliente é de R$ 400,00 por mês.
+        * Capacidade de pagamento: R$ 3.000,00 \* 0.30 = R$ 900,00
+    * Resultado: A capacidade de pagamento do cliente é de R$ 900,00 por mês.
 
 ### 6.2. Taxas de Juros e Prazos
 
@@ -333,9 +331,7 @@ Permite registrar pagamentos de parcelas, calculando multas e juros de mora quan
 * **Avaliação de Risco:**
     * A avaliação de risco para clientes com mais de 65 anos incluirá análise de histórico de saúde e fontes de renda estáveis (aposentadoria, pensão).
     * Garantias adicionais podem ser solicitadas para clientes com mais de 70 anos.
-* **Documentação:**
-    * Comprovante de idade (RG, CNH) é obrigatório para todos os clientes.
-    * Comprovante de renda de aposentadoria ou pensão é obrigatório para clientes aposentados ou pensionistas.
+
 
 ## 7. Observações
 
